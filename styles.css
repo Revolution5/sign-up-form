@@ -1,0 +1,40 @@
+@font-face {
+    font-family: odin-font;
+    src: url("./Fonts/Norse-Bold.otf");
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex; 
+}
+
+#spacebg {
+    height: 100vh;
+    width: 35vw
+}
+
+
+#sidebar {
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 35vw;
+    height: 15%;
+    justify-content: center;
+    font-size: 90px;
+    top: 25vh;
+    font-family: odin-font;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 200px;
+}
