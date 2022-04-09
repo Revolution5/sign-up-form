@@ -5,9 +5,11 @@
 body {
     padding: 0;
     margin: 0;
+    
 }
 .container {
-    display: flex; 
+    display: flex;
+    
 }
 
 #spacebg {
@@ -15,6 +17,9 @@ body {
     width: 35vw
 }
 
+.left-side {
+    position: relative;
+}
 
 #sidebar {
     display: flex;
@@ -25,10 +30,15 @@ body {
     height: 15%;
     justify-content: center;
     font-size: 90px;
-    top: 25vh;
+    top: 20vh;
     font-family: odin-font;
     box-sizing: border-box;
     padding: 10px;
+    align-items: center;
+    gap: 5px;
+}
+#odin-logo {
+    height: 12vh;
 }
 
 .right-side {
@@ -37,4 +47,11 @@ body {
     justify-content: space-around;
     padding-left: 50px;
     padding-right: 200px;
+}
+
+#credit {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 97vh;
 }
