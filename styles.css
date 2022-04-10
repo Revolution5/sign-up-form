@@ -59,18 +59,18 @@ html, body {
     justify-content: center;
 }
 
-#sign-up-form {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .form-container {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 700px;
+    padding-bottom: 50px;
 }
 
-.tagline, .submit-area, .form-container {
+.tagline, .submit-area {
     padding-left: 50px;
     padding-right: 200px;
 }
@@ -78,6 +78,10 @@ html, body {
 .input {
     display: flex;
     flex-direction: column;
+}
+
+.form-title {
+    width: 100%;
 }
 
 
