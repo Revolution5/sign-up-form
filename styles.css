@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
 @font-face {
     font-family: odin-font;
     src: url("./Fonts/Norse-Bold.otf");
@@ -7,11 +9,11 @@ html, body {
     margin: 0;
     height: 100%;
     overflow: hidden;
-    
+    font-family: Roboto, sans-serif;
 }
+
 .container {
     display: flex;
-    
 }
 
 #spacebg {
@@ -46,8 +48,9 @@ html, body {
 .right-side {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #f5f5f5;
+    gap: 35px;
 }
 
 #credit {
@@ -66,8 +69,9 @@ html, body {
     background-color: white;
     gap: 20px;
     padding-left: 50px;
-    padding-right: 700px;
+    padding-right: 400px;
     padding-bottom: 50px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
 .tagline, .submit-area {
@@ -78,13 +82,54 @@ html, body {
 .input {
     display: flex;
     flex-direction: column;
+    
 }
 
 .form-title {
     width: 100%;
 }
 
+#log-in{
+    color: #007076;
+}
 
+#create-account {
+    background-color: #007076;
+    color: white;
+    border: solid 1px #007076;
+    border-radius: 5px;
+    width: 25%;
+    height: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
 
+#log-in {
+    text-decoration: none;
+}
+input:focus {
+    outline: none !important;
+    border: solid 1px blue;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
 
+input {
+    border: solid 1px #E5E7EB;
+    border-radius: 3px;
+    width: 280px;
+    height: 35px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.submit-area > h3 {
+    font-weight: 400;
+}
+
+.tagline > h1, .form-title {
+    font-weight: 600;
+    font-size: 30px;
+}
 
