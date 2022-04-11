@@ -108,6 +108,7 @@ html, body {
 #log-in {
     text-decoration: none;
 }
+
 input:focus {
     outline: none !important;
     border: solid 1px blue;
